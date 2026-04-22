@@ -23,7 +23,7 @@ Ad effectiveness is proxied using the **midpoint of impression ranges**, and the
 data/raw/fbpac-ads-en-US.csv
 ```
 
-> **Note:** Large data files are not tracked in this repository. Download `fbpac-ads-en-US.csv` from the course Canvas page and place it at the path above before running the pipeline.
+> **Note:** Large data files are not tracked in this repository. `fbpac-ads-en-US.csv` is distributed via the Week 2 assignment on Canvas — download it and place it at the path above before running the pipeline.
 
 ### **Important Note**
 
