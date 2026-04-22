@@ -1,0 +1,29 @@
+# Data files (too large for git)
+data/raw/
+data/processed/
+artifacts/baseline/val_predictions.csv
+
+# Virtual environment
+390_proj/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
