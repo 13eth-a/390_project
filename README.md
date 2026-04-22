@@ -23,7 +23,7 @@ Ad effectiveness is proxied using the **midpoint of impression ranges**, and the
 data/raw/fbpac-ads-en-US.csv
 ```
 
-> **Note:** Large data files are not tracked in this repository. Download `fbpac-ads-en-US.csv` separately and place it at the path above before running the pipeline.
+> **Note:** Large data files are not tracked in this repository. Download `fbpac-ads-en-US.csv` from [ProPublica's Facebook Political Ad Collector dataset](https://github.com/propublica/facebook-political-ads) and place it at the path above before running the pipeline.
 
 ### **Important Note**
 
