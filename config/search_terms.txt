@@ -1,0 +1,64 @@
+# Search terms for Meta Ad Library API scrape — U.S. political ads 2022-2023
+# One term per line. Lines starting with # are ignored.
+# Each term is submitted as a separate query; results are deduplicated by ad ID.
+#
+# Strategy: broad civic/political vocabulary to maximise coverage of the
+# 2022 midterm election cycle without targeting any specific party or candidate.
+
+# Core civic & electoral vocabulary
+vote
+voting
+election
+elections
+ballot
+candidate
+campaign
+midterm
+primary
+democracy
+
+# Office types
+congress
+senator
+senate
+representative
+governor
+mayor
+district
+
+# Party / movement labels (both sides for balanced coverage)
+republican
+democrat
+GOP
+conservative
+liberal
+progressive
+
+# Top policy issues of the 2022 cycle
+inflation
+economy
+healthcare
+abortion
+immigration
+border
+crime
+safety
+taxes
+jobs
+education
+climate
+guns
+fentanyl
+social security
+
+# Call-to-action language common in political ads
+support
+donate
+join us
+fight for
+stand with
+protect
+defend
+stop
+end
+reform

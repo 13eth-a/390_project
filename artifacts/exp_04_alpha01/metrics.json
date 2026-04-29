@@ -1,0 +1,10 @@
+{
+  "spearman": 0.3311908542794278,
+  "rmse": 0.6120418954412209,
+  "runtime_seconds": 23.151,
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 5000,
+  "model": "ridge",
+  "target": "log_impressions_mid"
+}
