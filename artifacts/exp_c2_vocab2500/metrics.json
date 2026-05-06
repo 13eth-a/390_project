@@ -1,0 +1,12 @@
+{
+  "spearman": 0.29868831632292814,
+  "rmse": 0.6209821016612095,
+  "runtime_seconds": 9.036,
+  "n_train": 113698,
+  "n_val": 24296,
+  "model": "ridge",
+  "tfidf_max_features": 2500,
+  "ngram_max": 2,
+  "alpha": 1.0,
+  "description": "Vocab sweep: 2.5k features"
+}

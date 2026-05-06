@@ -1,0 +1,12 @@
+{
+  "spearman": 0.34736729174288195,
+  "rmse": 0.6067958301291995,
+  "runtime_seconds": 20.6065,
+  "n_train": 113698,
+  "n_val": 24296,
+  "model": "ridge",
+  "tfidf_max_features": 10000,
+  "ngram_max": 3,
+  "alpha": 1.0,
+  "description": "10k features, trigrams (1-3)"
+}

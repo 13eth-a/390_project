@@ -1,0 +1,10 @@
+{
+  "spearman": null,
+  "rmse": 0.6494205565007353,
+  "runtime_seconds": 0.0165,
+  "n_train": 113698,
+  "n_val": 24296,
+  "model": "mean_baseline",
+  "tfidf_max_features": 0,
+  "description": "Predict global train mean for every ad"
+}

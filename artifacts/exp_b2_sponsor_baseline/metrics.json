@@ -1,0 +1,10 @@
+{
+  "spearman": 0.32490923408438527,
+  "rmse": 0.6139416577538058,
+  "runtime_seconds": 0.0507,
+  "n_train": 113698,
+  "n_val": 24296,
+  "model": "sponsor_mean_baseline",
+  "tfidf_max_features": 0,
+  "description": "Predict per-sponsor mean impressions from train set"
+}
