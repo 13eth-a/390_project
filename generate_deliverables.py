@@ -106,7 +106,7 @@ xs = np.arange(len(plot_ids))
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(13, 8), sharex=True)
 fig.suptitle(
     "Experiment Metrics Across Controlled Runs\n"
-    "POLI/STAT 390 — Political Ad Impression Prediction",
+    "STAT 390 — Political Ad Impression Prediction",
     fontsize=13, fontweight="bold", y=0.98,
 )
 
