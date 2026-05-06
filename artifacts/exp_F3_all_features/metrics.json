@@ -1,0 +1,11 @@
+{
+  "spearman": 0.3911566835617986,
+  "rmse": 0.5890284596255235,
+  "runtime_seconds": 10.8815,
+  "axis": "F",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "TF-IDF 50k + text stats + sponsor flag (all engineered features)"
+}

@@ -1,0 +1,11 @@
+{
+  "spearman": 0.0619864078764911,
+  "rmse": 0.6477365206264838,
+  "runtime_seconds": 0.0612,
+  "axis": "F",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 0,
+  "description": "Text stats + sponsor flag only (no TF-IDF) \u2014 structural baseline"
+}

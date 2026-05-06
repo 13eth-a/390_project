@@ -1,0 +1,11 @@
+{
+  "spearman": 0.40398295222543373,
+  "rmse": 0.5851602265302441,
+  "runtime_seconds": 10.5943,
+  "axis": "P",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "Prepend SPONSOR_<slug> token to ad text (50k vocab)"
+}

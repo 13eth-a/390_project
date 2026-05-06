@@ -1,0 +1,14 @@
+{
+  "spearman": 0.39025154230325704,
+  "rmse": 0.5893383533065739,
+  "runtime_seconds": 10.061,
+  "axis": "H",
+  "n_train": 113698,
+  "n_val": 24296,
+  "model": "ridge",
+  "tfidf_max_features": 50000,
+  "alpha": 1.0,
+  "min_df": 2,
+  "max_df": 0.8,
+  "description": "50k vocab, max_df=0.80 (tighter stopword removal)"
+}

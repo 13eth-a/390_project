@@ -1,0 +1,11 @@
+{
+  "spearman": 0.39164406772974836,
+  "rmse": 0.5888925418474766,
+  "runtime_seconds": 9.8952,
+  "axis": "P",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "Prepend ADLEN_SHORT/MEDIUM/LONG token to ad text (50k vocab)"
+}

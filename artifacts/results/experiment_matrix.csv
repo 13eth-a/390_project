@@ -13,3 +13,20 @@ C7,TF-IDF 10k trigrams,"ngram_range=(1,3)",ngram,ridge,10000,3,1.0,0.34736729174
 02,Unigrams only,"ngram_range=(1,1)",ngram,ridge,5000,2,1.0,0.3324885297644763,0.6109,6.5589,113698,24296,
 03,alpha=10,Ridge alpha=10,alpha,ridge,5000,2,1.0,0.33697597912302535,0.6118,14.8907,113698,24296,
 04,alpha=0.1,Ridge alpha=0.1,alpha,ridge,5000,2,1.0,0.3311908542794278,0.612,23.151,113698,24296,
+H1,min_df=1,min_df=1 (include hapax),H,ridge,50000,2,1.0,0.39001436967688824,0.5893,9.6071,113698,24296,"50k vocab, min_df=1 (include hapax)"
+H2,min_df=5,min_df=5 (prune rare terms),H,ridge,50000,2,1.0,0.38985097402801694,0.5891,10.0323,113698,24296,"50k vocab, min_df=5 (prune rare terms)"
+H3,alpha=100,Ridge alpha=100,H,ridge,50000,2,100.0,0.35574335391086503,0.6231,8.3286,113698,24296,"50k vocab, Ridge alpha=100 (heavy regularisation)"
+H4,alpha=0.01,Ridge alpha=0.01,H,ridge,50000,2,0.01,0.3296966475780505,0.714,20.427,113698,24296,"50k vocab, Ridge alpha=0.01 (near-OLS)"
+H5,max_df=0.80,max_df=0.80,H,ridge,50000,2,1.0,0.39025154230325704,0.5893,10.061,113698,24296,"50k vocab, max_df=0.80 (tighter stopword removal)"
+P1,Stopwords removed,Remove stopwords,P,ridge,50000,2,1.0,0.393572841973649,0.5891,8.0939,113698,24296,Remove stopwords before TF-IDF (50k vocab)
+P2,Sponsor prefix,Prepend sponsor slug,P,ridge,50000,2,1.0,0.40398295222543373,0.5852,10.5943,113698,24296,Prepend SPONSOR_<slug> token to ad text (50k vocab)
+P3,Length bucket,Prepend SHORT/MED/LONG,P,ridge,50000,2,1.0,0.39164406772974836,0.5889,9.8952,113698,24296,Prepend ADLEN_SHORT/MEDIUM/LONG token to ad text (50k vocab)
+P4,Char 3-5 grams,analyzer=char_wb,P,ridge,50000,2,1.0,0.3545066546506317,0.6013,50.741,113698,24296,Character 3-5 grams (50k features) instead of word n-grams
+M1,Lasso,Lasso (alpha=0.001),M,lasso,50000,2,1.0,0.042035026198579815,0.6494,15.0396,113698,24296,"Lasso regression (alpha=0.001, 50k TF-IDF)"
+M2,ElasticNet,"ElasticNet (a=0.001,l1=0.5)",M,elasticnet,50000,2,1.0,0.15532051897805968,0.6476,14.486,113698,24296,"ElasticNet (alpha=0.001, l1_ratio=0.5, 50k TF-IDF)"
+M3,SVD-200+Ridge,TruncatedSVD 200 + Ridge,M,svd200+ridge,50000,2,1.0,0.24938132531980436,0.6337,27.8151,113698,24296,TruncatedSVD (200 components) + Ridge on 50k TF-IDF
+M4,HistGBT,HistGradientBoosting+SVD,M,histgbt,50000,2,1.0,0.35927810022317447,0.5989,16.6503,113698,24296,HistGradientBoosting on SVD-200 of 50k TF-IDF
+F1,TF-IDF+TextStats,TF-IDF+5 text features,F,ridge,50000,2,1.0,0.3901364513377848,0.5894,10.3858,113698,24296,"TF-IDF 50k + log_chars, log_words, excl_density, quest_density, caps_ratio"
+F2,TF-IDF+SponsorFlag,TF-IDF+top100 sponsor flag,F,ridge,50000,2,1.0,0.39105571427985597,0.589,10.0285,113698,24296,TF-IDF 50k + binary top-100-sponsor indicator
+F3,TF-IDF+All Feats,TF-IDF+text+sponsor (full),F,ridge,50000,2,1.0,0.3911566835617986,0.589,10.8815,113698,24296,TF-IDF 50k + text stats + sponsor flag (all engineered features)
+F4,No TF-IDF,Text stats only (no TF-IDF),F,ridge,0,2,1.0,0.0619864078764911,0.6477,0.0612,113698,24296,Text stats + sponsor flag only (no TF-IDF) — structural baseline

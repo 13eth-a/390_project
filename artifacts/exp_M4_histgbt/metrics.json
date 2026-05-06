@@ -1,0 +1,11 @@
+{
+  "spearman": 0.35927810022317447,
+  "rmse": 0.5989123244270453,
+  "runtime_seconds": 16.6503,
+  "axis": "M",
+  "model": "histgbt",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "HistGradientBoosting on SVD-200 of 50k TF-IDF"
+}

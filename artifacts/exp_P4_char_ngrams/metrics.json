@@ -1,0 +1,11 @@
+{
+  "spearman": 0.3545066546506317,
+  "rmse": 0.6013089631979853,
+  "runtime_seconds": 50.741,
+  "axis": "P",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "Character 3-5 grams (50k features) instead of word n-grams"
+}

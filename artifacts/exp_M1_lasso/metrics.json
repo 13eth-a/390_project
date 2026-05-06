@@ -1,0 +1,11 @@
+{
+  "spearman": 0.042035026198579815,
+  "rmse": 0.6493860778203635,
+  "runtime_seconds": 15.0396,
+  "axis": "M",
+  "model": "lasso",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "Lasso regression (alpha=0.001, 50k TF-IDF)"
+}

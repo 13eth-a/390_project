@@ -1,0 +1,11 @@
+{
+  "spearman": 0.39105571427985597,
+  "rmse": 0.5889971653824063,
+  "runtime_seconds": 10.0285,
+  "axis": "F",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "TF-IDF 50k + binary top-100-sponsor indicator"
+}

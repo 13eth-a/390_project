@@ -1,0 +1,11 @@
+{
+  "spearman": 0.24938132531980436,
+  "rmse": 0.6336990360310838,
+  "runtime_seconds": 27.8151,
+  "axis": "M",
+  "model": "svd200+ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "TruncatedSVD (200 components) + Ridge on 50k TF-IDF"
+}

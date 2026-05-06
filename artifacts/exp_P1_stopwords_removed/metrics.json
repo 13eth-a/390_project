@@ -1,0 +1,11 @@
+{
+  "spearman": 0.393572841973649,
+  "rmse": 0.5890876320311647,
+  "runtime_seconds": 8.0939,
+  "axis": "P",
+  "model": "ridge",
+  "n_train": 113698,
+  "n_val": 24296,
+  "tfidf_max_features": 50000,
+  "description": "Remove stopwords before TF-IDF (50k vocab)"
+}
